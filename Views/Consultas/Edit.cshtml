@@ -1,0 +1,60 @@
+@model Projetos.Models.Consultas
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+</head>
+<body>
+
+<h4>Consultas</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Cpf" class="control-label"></label>
+                <select asp-for="Cpf" class="form-control" asp-items="ViewBag.Cpf"></select>
+                <span asp-validation-for="Cpf" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Crm" class="control-label"></label>
+                <select asp-for="Crm" class="form-control" asp-items="ViewBag.Crm"></select>
+                <span asp-validation-for="Crm" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Coren" class="control-label"></label>
+                <select asp-for="Coren" class="form-control" asp-items="ViewBag.Coren"></select>
+                <span asp-validation-for="Coren" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataConsulta" class="control-label"></label>
+                <input asp-for="DataConsulta" class="form-control" />
+                <span asp-validation-for="DataConsulta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CodTriagem" class="control-label"></label>
+                <select asp-for="CodTriagem" class="form-control" asp-items="ViewBag.CodTriagem"></select>
+                <span asp-validation-for="CodTriagem" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="CodConsultas" />
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>

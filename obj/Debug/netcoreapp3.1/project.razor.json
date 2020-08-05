@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-hospital\\dell-hospital.csproj",
+  "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Projetos.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20518,7 +20518,158 @@
     ],
     "CSharpLanguageVersion": 800
   },
-  "RootNamespace": "dell_hospital",
-  "Documents": [],
+  "RootNamespace": "Projetos",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Pacientes\\Delete.cshtml",
+      "TargetPath": "Views\\Pacientes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Enfermeiros\\Index.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Consultas\\Details.cshtml",
+      "TargetPath": "Views\\Consultas\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Especialidades\\Index.cshtml",
+      "TargetPath": "Views\\Especialidades\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Enfermeiros\\Details.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Especialidades\\Delete.cshtml",
+      "TargetPath": "Views\\Especialidades\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Triagem\\Details.cshtml",
+      "TargetPath": "Views\\Triagem\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Enfermeiros\\Create.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Enfermeiros\\Edit.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Triagem\\Edit.cshtml",
+      "TargetPath": "Views\\Triagem\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Especialidades\\Edit.cshtml",
+      "TargetPath": "Views\\Especialidades\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Consultas\\Index.cshtml",
+      "TargetPath": "Views\\Consultas\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Pacientes\\Index.cshtml",
+      "TargetPath": "Views\\Pacientes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Consultas\\Delete.cshtml",
+      "TargetPath": "Views\\Consultas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Consultas\\Edit.cshtml",
+      "TargetPath": "Views\\Consultas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Medicos\\Index.cshtml",
+      "TargetPath": "Views\\Medicos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Especialidades\\Details.cshtml",
+      "TargetPath": "Views\\Especialidades\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Enfermeiros\\Delete.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Medicos\\Create.cshtml",
+      "TargetPath": "Views\\Medicos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Medicos\\Details.cshtml",
+      "TargetPath": "Views\\Medicos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Triagem\\Delete.cshtml",
+      "TargetPath": "Views\\Triagem\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Medicos\\Delete.cshtml",
+      "TargetPath": "Views\\Medicos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Pacientes\\Details.cshtml",
+      "TargetPath": "Views\\Pacientes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Pacientes\\Create.cshtml",
+      "TargetPath": "Views\\Pacientes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Medicos\\Edit.cshtml",
+      "TargetPath": "Views\\Medicos\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Triagem\\Create.cshtml",
+      "TargetPath": "Views\\Triagem\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Triagem\\Index.cshtml",
+      "TargetPath": "Views\\Triagem\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Consultas\\Create.cshtml",
+      "TargetPath": "Views\\Consultas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Especialidades\\Create.cshtml",
+      "TargetPath": "Views\\Especialidades\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\thales_domingues\\Documents\\Projetos\\Views\\Pacientes\\Edit.cshtml",
+      "TargetPath": "Views\\Pacientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:36052",
-      "sslPort": 44344
+      "applicationUrl": "http://localhost:35116",
+      "sslPort": 44313
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "dell_hospital": {
+    "Projetos": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "weatherforecast",

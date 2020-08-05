@@ -1,0 +1,57 @@
+@model Projetos.Models.Triagem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+
+<h4>Triagem</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Cpf" class="control-label"></label>
+                <select asp-for="Cpf" class ="form-control" asp-items="ViewBag.Cpf"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Coren" class="control-label"></label>
+                <select asp-for="Coren" class ="form-control" asp-items="ViewBag.Coren"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataConsulta" class="control-label"></label>
+                <input asp-for="DataConsulta" class="form-control" />
+                <span asp-validation-for="DataConsulta" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DescricaoPaciente" class="control-label"></label>
+                <input asp-for="DescricaoPaciente" class="form-control" />
+                <span asp-validation-for="DescricaoPaciente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Prioridade" class="control-label"></label>
+                <input asp-for="Prioridade" class="form-control" />
+                <span asp-validation-for="Prioridade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+@model Projetos.Models.Triagem
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Delete</title>
+</head>
+<body>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Triagem</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DataConsulta)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DataConsulta)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DescricaoPaciente)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DescricaoPaciente)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Prioridade)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Prioridade)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CorenNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CorenNavigation.Coren)
+        </dd class>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CpfNavigation)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CpfNavigation.Cpf)
+        </dd class>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="CodTriagem" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+</body>
+</html>

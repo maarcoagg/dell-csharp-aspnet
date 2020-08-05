@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace dell_hospital.Models
+namespace Projetos.Models
 {
     public partial class HospitalContext : DbContext
     {
@@ -26,7 +26,7 @@ namespace dell_hospital.Models
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("data source=DESKTOP-QR5M9H5;initial catalog=Hospital;trusted_connection=true");
+                optionsBuilder.UseSqlServer("data source=W107C4FD33;initial catalog=Hospital;trusted_connection=true");
             }
         }
 
@@ -35,7 +35,7 @@ namespace dell_hospital.Models
             modelBuilder.Entity<Consultas>(entity =>
             {
                 entity.HasKey(e => e.CodConsultas)
-                    .HasName("PK__Consulta__AB89BEAB7D0B622C");
+                    .HasName("PK__Consulta__AB89BEAB063E2F5A");
 
                 entity.HasIndex(e => new { e.Cpf, e.DataConsulta, e.Crm, e.Coren, e.CodTriagem })
                     .HasName("ck_marcado")
@@ -89,7 +89,7 @@ namespace dell_hospital.Models
             modelBuilder.Entity<Enfermeiros>(entity =>
             {
                 entity.HasKey(e => e.Coren)
-                    .HasName("PK__Enfermei__F7D2C3E98FFE1C85");
+                    .HasName("PK__Enfermei__F7D2C3E956010F1B");
 
                 entity.Property(e => e.Coren)
                     .HasColumnName("COREN")
@@ -106,10 +106,10 @@ namespace dell_hospital.Models
             modelBuilder.Entity<Especialidades>(entity =>
             {
                 entity.HasKey(e => e.CodEspecialidade)
-                    .HasName("PK__Especial__0EB6E8550930863F");
+                    .HasName("PK__Especial__0EB6E855E508710D");
 
                 entity.HasIndex(e => e.Nome)
-                    .HasName("UQ__Especial__7D8FE3B20CFA1462")
+                    .HasName("UQ__Especial__7D8FE3B2CB68A7B1")
                     .IsUnique();
 
                 entity.Property(e => e.CodEspecialidade).HasColumnName("Cod_especialidade");
@@ -130,7 +130,7 @@ namespace dell_hospital.Models
             modelBuilder.Entity<Medicos>(entity =>
             {
                 entity.HasKey(e => e.Crm)
-                    .HasName("PK__Medicos__C1F887FE43619D62");
+                    .HasName("PK__Medicos__C1F887FE9A2E4FCB");
 
                 entity.Property(e => e.Crm)
                     .HasColumnName("CRM")
@@ -155,7 +155,7 @@ namespace dell_hospital.Models
             modelBuilder.Entity<Pacientes>(entity =>
             {
                 entity.HasKey(e => e.Cpf)
-                    .HasName("PK__Paciente__C1F89730EB4550E3");
+                    .HasName("PK__Paciente__C1F89730D2F395F2");
 
                 entity.Property(e => e.Cpf)
                     .HasColumnName("CPF")
@@ -179,7 +179,7 @@ namespace dell_hospital.Models
             modelBuilder.Entity<Triagem>(entity =>
             {
                 entity.HasKey(e => e.CodTriagem)
-                    .HasName("PK__Triagem__49128E5642A68381");
+                    .HasName("PK__Triagem__49128E56D8C5F479");
 
                 entity.Property(e => e.CodTriagem).HasColumnName("Cod_triagem");
 

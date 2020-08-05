@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace dell_hospital.Models
+namespace Projetos.Models
 {
     public partial class Consultas
     {

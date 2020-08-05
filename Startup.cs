@@ -10,11 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Projetos.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Sqlite;
-using dell_hospital.Models;
 
-namespace dell_hospital
+namespace Projetos
 {
     public class Startup
     {
@@ -28,9 +27,8 @@ namespace dell_hospital
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<HospitalContext>(options =>
-              options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
             services.AddControllers();
+            services.AddDbContext<HospitalContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

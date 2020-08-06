@@ -9,6 +9,8 @@ using Projetos.Models;
 
 namespace Projetos.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class TriagemController : Controller
     {
         private readonly HospitalContext _context;
@@ -19,6 +21,7 @@ namespace Projetos.Controllers
         }
 
         // GET: Triagem
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var hospitalContext = _context.Triagem.Include(t => t.CorenNavigation).Include(t => t.CpfNavigation);
@@ -26,6 +29,7 @@ namespace Projetos.Controllers
         }
 
         // GET: Triagem/Details/5
+        [HttpGet("{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -43,6 +47,28 @@ namespace Projetos.Controllers
             }
 
             return View(triagem);
+        }
+
+        [HttpGet("Prioridade/{id}")]
+        public async Task<IActionResult> Prioridade(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var triagem = await _context.Triagem
+                .FirstOrDefaultAsync(t => t.Prioridade == id);
+
+            var pacientes = await _context.Pacientes
+                .FirstOrDefaultAsync(p => p.Cpf == triagem.Cpf);
+
+            if (triagem == null)
+            {
+                return NotFound();
+            }
+
+            return View(pacientes);
         }
 
         // GET: Triagem/Create

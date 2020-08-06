@@ -28,6 +28,7 @@ namespace Projetos
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddMvc();
             services.AddDbContext<HospitalContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 

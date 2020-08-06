@@ -9,6 +9,8 @@ using Projetos.Models;
 
 namespace Projetos.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class EspecialidadesController : Controller
     {
         private readonly HospitalContext _context;
@@ -19,12 +21,14 @@ namespace Projetos.Controllers
         }
 
         // GET: Especialidades
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Especialidades.ToListAsync());
         }
 
         // GET: Especialidades/Details/5
+        [HttpGet("{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)
@@ -42,6 +46,28 @@ namespace Projetos.Controllers
             return View(especialidades);
         }
 
+        [HttpGet("Medicos/{id}")]
+        public async Task<IActionResult> Especialidade(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var especialidade = await _context.Especialidades
+                .FirstOrDefaultAsync(e => e.Nome == id);
+
+            var medicos = await _context.Medicos
+                .FirstOrDefaultAsync(m => m.CodEspecialidade == especialidade.CodEspecialidade); 
+
+            if (medicos == null)
+            {
+                return NotFound();
+            }
+
+            return View(medicos);
+        }
+        
         // GET: Especialidades/Create
         public IActionResult Create()
         {

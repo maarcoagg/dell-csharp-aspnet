@@ -12,12 +12,12 @@
     <title>Index</title>
 </head>
 <body>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
+<table class="table" style="margin-left:auto;margin-right:auto;">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Crm)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
             </th>
@@ -30,16 +30,14 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <th> 
+                <font color="red">@Html.DisplayFor(modelItem => item.Crm)</font>
+            </th>
             <td>
-                @Html.DisplayFor(modelItem => item.Nome)
+                <font color="blue">@Html.DisplayFor(modelItem => item.Nome)</font>
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CodEspecialidadeNavigation.Descricao)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Crm">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Crm">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Crm">Delete</a>
             </td>
         </tr>
 }

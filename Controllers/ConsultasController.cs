@@ -9,6 +9,8 @@ using Projetos.Models;
 
 namespace Projetos.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class ConsultasController : Controller
     {
         private readonly HospitalContext _context;
@@ -19,6 +21,7 @@ namespace Projetos.Controllers
         }
 
         // GET: Consultas
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             var hospitalContext = _context.Consultas.Include(c => c.CodTriagemNavigation).Include(c => c.CorenNavigation).Include(c => c.CpfNavigation).Include(c => c.CrmNavigation);
@@ -26,6 +29,7 @@ namespace Projetos.Controllers
         }
 
         // GET: Consultas/Details/5
+        [HttpGet("{id}")]
         public async Task<IActionResult> Details(int? id)
         {
             if (id == null)

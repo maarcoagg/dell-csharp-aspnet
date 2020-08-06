@@ -42,6 +42,37 @@ namespace Projetos.Controllers
             return View(pacientes);
         }
 
+        // GET: Pacientes/Consultas/id_pac
+        [HttpGet("Consultas/{id}")]
+        public async Task<IActionResult> Consulta(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            
+            var pacientes = await _context.Pacientes
+                .FirstOrDefaultAsync(m => m.Cpf == id);
+                
+            if (pacientes == null)
+            {
+                return NotFound();
+            }
+            
+            var consultas = await _context.Consultas
+                .Include(c => c.CodTriagemNavigation)
+                .Include(c => c.CorenNavigation)
+                .Include(c => c.CpfNavigation)
+                .Include(c => c.CrmNavigation)
+                .FirstOrDefaultAsync(m => m.CodConsultas == id);
+            if (consultas == null)
+            {
+                return NotFound();
+            }
+
+            return View(consultas);
+        }
+
         // GET: Pacientes/Create
         public IActionResult Create()
         {

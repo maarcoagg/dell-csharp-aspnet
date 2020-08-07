@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kX14VTU6s2PGsJE9XXJ3SIGYiAfqICvr2/NMMoOw1XOVDG8QV1As433uHnJ2cliRkQv1tPDOzgwgNqj5ajaqmQ==",
+  "dgSpecHash": "AxNYzgtpbW72+rGS4oxAc85hpg89lL7THh4qPWhHesOlaPCoMeb02w3QvZOAk+XumduxiK+LhfVOM5JIBoeH0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\marco_goerdert\\source\\repos\\dell_webservices\\Projetos.csproj",
+  "projectFilePath": "C:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Projetos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marco_goerdert\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\marco_goerdert\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

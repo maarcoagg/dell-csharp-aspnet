@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Projetos.csproj",
+  "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Projetos.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -20521,163 +20521,163 @@
   "RootNamespace": "Projetos",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Create.cshtml",
-      "TargetPath": "Views\\Pacientes\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Delete.cshtml",
-      "TargetPath": "Views\\Pacientes\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Enfermeiros\\Index.cshtml",
-      "TargetPath": "Views\\Enfermeiros\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Consulta.cshtml",
-      "TargetPath": "Views\\Pacientes\\Consulta.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Especialidades\\Create.cshtml",
-      "TargetPath": "Views\\Especialidades\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Enfermeiros\\Delete.cshtml",
-      "TargetPath": "Views\\Enfermeiros\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Details.cshtml",
-      "TargetPath": "Views\\Pacientes\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Medicos\\Delete.cshtml",
-      "TargetPath": "Views\\Medicos\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Especialidades\\Delete.cshtml",
-      "TargetPath": "Views\\Especialidades\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Triagem\\Edit.cshtml",
-      "TargetPath": "Views\\Triagem\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Consultas\\Edit.cshtml",
-      "TargetPath": "Views\\Consultas\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Medicos\\Details.cshtml",
-      "TargetPath": "Views\\Medicos\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Enfermeiros\\Create.cshtml",
-      "TargetPath": "Views\\Enfermeiros\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Triagem\\Create.cshtml",
-      "TargetPath": "Views\\Triagem\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Triagem\\Index.cshtml",
-      "TargetPath": "Views\\Triagem\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Enfermeiros\\Edit.cshtml",
-      "TargetPath": "Views\\Enfermeiros\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Medicos\\Create.cshtml",
-      "TargetPath": "Views\\Medicos\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Especialidades\\Index.cshtml",
-      "TargetPath": "Views\\Especialidades\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Especialidades\\Medicos.cshtml",
-      "TargetPath": "Views\\Especialidades\\Medicos.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Triagem\\Delete.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Triagem\\Delete.cshtml",
       "TargetPath": "Views\\Triagem\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Edit.cshtml",
-      "TargetPath": "Views\\Pacientes\\Edit.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Triagem\\Edit.cshtml",
+      "TargetPath": "Views\\Triagem\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Consultas\\Create.cshtml",
-      "TargetPath": "Views\\Consultas\\Create.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Medicos\\Create.cshtml",
+      "TargetPath": "Views\\Medicos\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Triagem\\Prioridade.cshtml",
-      "TargetPath": "Views\\Triagem\\Prioridade.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Pacientes\\Consulta.cshtml",
+      "TargetPath": "Views\\Pacientes\\Consulta.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Consultas\\Details.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Especialidades\\Create.cshtml",
+      "TargetPath": "Views\\Especialidades\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Consultas\\Details.cshtml",
       "TargetPath": "Views\\Consultas\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Enfermeiros\\Details.cshtml",
-      "TargetPath": "Views\\Enfermeiros\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Especialidades\\Edit.cshtml",
-      "TargetPath": "Views\\Especialidades\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Especialidades\\Details.cshtml",
-      "TargetPath": "Views\\Especialidades\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Index.cshtml",
-      "TargetPath": "Views\\Pacientes\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Consultas\\Delete.cshtml",
-      "TargetPath": "Views\\Consultas\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Medicos\\Edit.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Medicos\\Edit.cshtml",
       "TargetPath": "Views\\Medicos\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Consultas\\Index.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Enfermeiros\\Index.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Consultas\\Create.cshtml",
+      "TargetPath": "Views\\Consultas\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Medicos\\Index.cshtml",
+      "TargetPath": "Views\\Medicos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Especialidades\\Delete.cshtml",
+      "TargetPath": "Views\\Especialidades\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Medicos\\Details.cshtml",
+      "TargetPath": "Views\\Medicos\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Especialidades\\Index.cshtml",
+      "TargetPath": "Views\\Especialidades\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Enfermeiros\\Edit.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Especialidades\\Edit.cshtml",
+      "TargetPath": "Views\\Especialidades\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Pacientes\\Details.cshtml",
+      "TargetPath": "Views\\Pacientes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Enfermeiros\\Delete.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Especialidades\\Details.cshtml",
+      "TargetPath": "Views\\Especialidades\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Triagem\\Index.cshtml",
+      "TargetPath": "Views\\Triagem\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Pacientes\\Index.cshtml",
+      "TargetPath": "Views\\Pacientes\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Consultas\\Index.cshtml",
       "TargetPath": "Views\\Consultas\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Medicos\\Index.cshtml",
-      "TargetPath": "Views\\Medicos\\Index.cshtml",
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Enfermeiros\\Create.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Pacientes\\Edit.cshtml",
+      "TargetPath": "Views\\Pacientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Pacientes\\Delete.cshtml",
+      "TargetPath": "Views\\Pacientes\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Consultas\\Edit.cshtml",
+      "TargetPath": "Views\\Consultas\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Medicos\\Delete.cshtml",
+      "TargetPath": "Views\\Medicos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Enfermeiros\\Details.cshtml",
+      "TargetPath": "Views\\Enfermeiros\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Pacientes\\Create.cshtml",
+      "TargetPath": "Views\\Pacientes\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Consultas\\Delete.cshtml",
+      "TargetPath": "Views\\Consultas\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Especialidades\\Medicos.cshtml",
+      "TargetPath": "Views\\Especialidades\\Medicos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Triagem\\Create.cshtml",
+      "TargetPath": "Views\\Triagem\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Triagem\\Prioridade.cshtml",
+      "TargetPath": "Views\\Triagem\\Prioridade.cshtml",
       "FileKind": "mvc"
     }
   ],

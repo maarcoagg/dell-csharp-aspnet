@@ -8592,11 +8592,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marco_goerdert\\source\\repos\\dell_webservices\\Projetos.csproj",
+      "projectUniqueName": "C:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Projetos.csproj",
       "projectName": "Projetos",
-      "projectPath": "C:\\Users\\marco_goerdert\\source\\repos\\dell_webservices\\Projetos.csproj",
+      "projectPath": "C:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Projetos.csproj",
       "packagesPath": "C:\\Users\\marco_goerdert\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\marco_goerdert\\source\\repos\\dell_webservices\\obj\\",
+      "outputPath": "C:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marco_goerdert\\AppData\\Roaming\\NuGet\\NuGet.Config"

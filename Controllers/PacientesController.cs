@@ -59,7 +59,6 @@ namespace Projetos.Controllers
                 .FirstOrDefaultAsync(m => m.Cpf == id);
 
             var consultas = from c in _context.Consultas
-                            where pacientes.Cpf == c.Cpf
                             select c;
 
             if (!String.IsNullOrEmpty(id))

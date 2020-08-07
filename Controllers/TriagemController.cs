@@ -61,9 +61,8 @@ namespace Projetos.Controllers
                 .FirstOrDefaultAsync(t => t.Prioridade == id);
 
             var pacientes = from p in _context.Pacientes
-                          where p.Cpf == triagem.Cpf
-                          orderby p.Nome
-                          select p;
+                            where p.Cpf == triagem.Cpf
+                            select p;
 
             if (pacientes == null)
             {

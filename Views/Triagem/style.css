@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+table, td, th {
+  border: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 400px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+th {
+  height: 50px;
+}
+td {
+    color:#6495ED;
+}

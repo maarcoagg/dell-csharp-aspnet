@@ -10,6 +10,7 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <p>
@@ -53,11 +54,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.CpfNavigation.Cpf)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CodTriagem">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CodTriagem">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CodTriagem">Delete</a>
             </td>
         </tr>
 }

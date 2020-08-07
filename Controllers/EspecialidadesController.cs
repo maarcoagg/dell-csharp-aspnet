@@ -59,19 +59,16 @@ namespace Projetos.Controllers
             var especialidade = await _context.Especialidades
                 .FirstOrDefaultAsync(e => e.Nome == id);
 
-            // var medicos = await _context.Medicos
-            //     .FirstOrDefaultAsync(m => m.CodEspecialidade == especialidade.CodEspecialidade); 
-
             var medicos = from m in _context.Medicos
                           where m.CodEspecialidade == especialidade.CodEspecialidade
                           select m;
 
             if (medicos == null)
             {
-                return NotFound(await medicos.ToListAsync());
+                return NotFound();
             }
 
-            return View();
+            return View(await medicos.ToListAsync());
         }
         
         // GET: Especialidades/Create

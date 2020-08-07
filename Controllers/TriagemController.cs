@@ -60,15 +60,17 @@ namespace Projetos.Controllers
             var triagem = await _context.Triagem
                 .FirstOrDefaultAsync(t => t.Prioridade == id);
 
-            var pacientes = await _context.Pacientes
-                .FirstOrDefaultAsync(p => p.Cpf == triagem.Cpf);
+            var pacientes = from p in _context.Pacientes
+                          where p.Cpf == triagem.Cpf
+                          orderby p.Nome
+                          select p;
 
-            if (triagem == null)
+            if (pacientes == null)
             {
                 return NotFound();
             }
 
-            return View(pacientes);
+            return View(await pacientes.ToListAsync());
         }
 
         // GET: Triagem/Create

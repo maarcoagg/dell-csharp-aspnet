@@ -20546,6 +20546,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Especialidades\\Preco.cshtml",
+      "TargetPath": "Views\\Especialidades\\Preco.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\marco_goerdert\\source\\repos\\desafio_dell\\Views\\Consultas\\Details.cshtml",
       "TargetPath": "Views\\Consultas\\Details.cshtml",
       "FileKind": "mvc"

@@ -934,3 +934,4 @@ C:\Users\marco_goerdert\source\repos\desafio_dell\obj\Debug\netcoreapp3.1\static
 C:\Users\marco_goerdert\source\repos\desafio_dell\obj\Debug\netcoreapp3.1\Projetos.dll
 C:\Users\marco_goerdert\source\repos\desafio_dell\obj\Debug\netcoreapp3.1\Projetos.pdb
 C:\Users\marco_goerdert\source\repos\desafio_dell\obj\Debug\netcoreapp3.1\Projetos.genruntimeconfig.cache
+C:\Users\marco_goerdert\source\repos\desafio_dell\obj\Debug\netcoreapp3.1\Razor\Views\Especialidades\Preco.cshtml.g.cs

@@ -57,12 +57,18 @@ namespace Projetos.Controllers
                 return NotFound();
             }
 
-            var triagem = await _context.Triagem
-                .FirstOrDefaultAsync(t => t.Prioridade == id);
+            //var triagem = await _context.Triagem
+            //    .FirstOrDefaultAsync(t => t.Prioridade == id);
 
             var pacientes = from p in _context.Pacientes
-                            where p.Cpf == triagem.Cpf
+                            join tri in _context.Triagem on p.Cpf equals tri.Cpf
+                            where tri.Prioridade == id
+                            orderby p.Nome
                             select p;
+
+            //var pacientes = from p in _context.Pacientes
+            //              where p.Cpf == triagem.Cpf
+            //              select p;
 
             if (pacientes == null)
             {

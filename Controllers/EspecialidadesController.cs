@@ -70,6 +70,27 @@ namespace Projetos.Controllers
 
             return View(await medicos.ToListAsync());
         }
+
+        [HttpGet("Preco/{id}")]
+        public async Task<IActionResult> Preco(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var queryEspecialidade = from e in _context.Especialidades
+                          where e.ValorConsulta <= id
+                          orderby e.ValorConsulta descending
+                          select e;
+
+            if (queryEspecialidade == null)
+            {
+                return NotFound();
+            }
+
+            return View(await queryEspecialidade.ToListAsync());
+        }
         
         // GET: Especialidades/Create
         public IActionResult Create()

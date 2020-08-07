@@ -8587,26 +8587,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\thales_domingues\\.nuget\\packages\\": {}
+    "C:\\Users\\marco_goerdert\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\thales_domingues\\Documents\\Repositorios\\dell-webservices\\Projetos.csproj",
+      "projectUniqueName": "C:\\Users\\marco_goerdert\\source\\repos\\dell_webservices\\Projetos.csproj",
       "projectName": "Projetos",
-      "projectPath": "C:\\Users\\thales_domingues\\Documents\\Repositorios\\dell-webservices\\Projetos.csproj",
-      "packagesPath": "C:\\Users\\thales_domingues\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\thales_domingues\\Documents\\Repositorios\\dell-webservices\\obj\\",
+      "projectPath": "C:\\Users\\marco_goerdert\\source\\repos\\dell_webservices\\Projetos.csproj",
+      "packagesPath": "C:\\Users\\marco_goerdert\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\marco_goerdert\\source\\repos\\dell_webservices\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\thales_domingues\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\marco_goerdert\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

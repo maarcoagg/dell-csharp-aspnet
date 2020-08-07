@@ -365,5 +365,5 @@ C:\Users\Usuario\Desktop\PUCRS\Dell\dell-webservices\obj\Debug\netcoreapp3.1\sta
 C:\Users\Usuario\Desktop\PUCRS\Dell\dell-webservices\obj\Debug\netcoreapp3.1\Projetos.dll
 C:\Users\Usuario\Desktop\PUCRS\Dell\dell-webservices\obj\Debug\netcoreapp3.1\Projetos.pdb
 C:\Users\Usuario\Desktop\PUCRS\Dell\dell-webservices\obj\Debug\netcoreapp3.1\Razor\Views\Especialidades\Medicos.cshtml.g.cs
-C:\Users\Usuario\Desktop\PUCRS\Dell\dell-webservices\obj\Debug\netcoreapp3.1\Razor\Views\Pacientes\Consultas.cshtml.g.cs
 C:\Users\Usuario\Desktop\PUCRS\Dell\dell-webservices\obj\Debug\netcoreapp3.1\Razor\Views\Triagem\Prioridade.cshtml.g.cs
+C:\Users\Usuario\Desktop\PUCRS\Dell\dell-webservices\obj\Debug\netcoreapp3.1\Razor\Views\Pacientes\Consulta.cshtml.g.cs

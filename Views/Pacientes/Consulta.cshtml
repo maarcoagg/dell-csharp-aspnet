@@ -1,4 +1,4 @@
-@model IEnumerable<Projetos.Models.Medicos>
+@model IEnumerable<Projetos.Models.Consultas>
 
 @{
     Layout = null;
@@ -9,17 +9,15 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Medicos</title>
+    <title>Index</title>
 </head>
 <body>
+<h4>Datas das consultas deste paciente</h4>
 <table class="table" style="margin-left:auto;margin-right:auto;">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Crm)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                @Html.DisplayNameFor(model => model.DataConsulta)
             </th>
             <th></th>
         </tr>
@@ -27,11 +25,8 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <th> 
-                <font color="red">@Html.DisplayFor(modelItem => item.Crm)</font>
-            </th>
             <td>
-                <font color="blue">@Html.DisplayFor(modelItem => item.Nome)</font>
+                @Html.DisplayFor(modelItem => item.DataConsulta)
             </td>
         </tr>
 }

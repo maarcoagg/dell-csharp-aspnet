@@ -9,6 +9,8 @@ using Projetos.Models;
 
 namespace Projetos.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class PacientesController : Controller
     {
         private readonly HospitalContext _context;
@@ -19,12 +21,14 @@ namespace Projetos.Controllers
         }
 
         // GET: Pacientes
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View(await _context.Pacientes.ToListAsync());
         }
 
         // GET: Pacientes/Details/5
+        [HttpGet("{id}")]
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -42,8 +46,8 @@ namespace Projetos.Controllers
             return View(pacientes);
         }
 
-        // GET: Pacientes/Consultas/id_pac
-        [HttpGet("Consultas/{id}")]
+        // GET: Pacientes/Consulta/id
+        [HttpGet("Consulta/{id}")]
         public async Task<IActionResult> Consulta(string id)
         {
             if (id == null)
@@ -53,24 +57,17 @@ namespace Projetos.Controllers
             
             var pacientes = await _context.Pacientes
                 .FirstOrDefaultAsync(m => m.Cpf == id);
-                
-            if (pacientes == null)
+
+            var consultas = from c in _context.Consultas
+                            where pacientes.Cpf == c.Cpf
+                            select c;
+
+            if (!String.IsNullOrEmpty(id))
             {
-                return NotFound();
-            }
-            
-            var consultas = await _context.Consultas
-                .Include(c => c.CodTriagemNavigation)
-                .Include(c => c.CorenNavigation)
-                .Include(c => c.CpfNavigation)
-                .Include(c => c.CrmNavigation)
-                .FirstOrDefaultAsync(m => m.CodConsultas == id);
-            if (consultas == null)
-            {
-                return NotFound();
+                consultas = consultas.Where(s => s.Cpf.Contains(id));
             }
 
-            return View(consultas);
+            return View(await consultas.ToListAsync());
         }
 
         // GET: Pacientes/Create

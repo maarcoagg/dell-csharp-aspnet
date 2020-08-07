@@ -20536,6 +20536,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Consulta.cshtml",
+      "TargetPath": "Views\\Pacientes\\Consulta.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Especialidades\\Create.cshtml",
       "TargetPath": "Views\\Especialidades\\Create.cshtml",
       "FileKind": "mvc"
@@ -20668,11 +20673,6 @@
     {
       "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Consultas\\Index.cshtml",
       "TargetPath": "Views\\Consultas\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Usuario\\Desktop\\PUCRS\\Dell\\dell-webservices\\Views\\Pacientes\\Consultas.cshtml",
-      "TargetPath": "Views\\Pacientes\\Consultas.cshtml",
       "FileKind": "mvc"
     },
     {

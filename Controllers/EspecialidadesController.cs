@@ -31,6 +31,7 @@ namespace Projetos.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> Details(int? id)
         {
+            
             if (id == null)
             {
                 return NotFound();
@@ -38,6 +39,7 @@ namespace Projetos.Controllers
 
             var especialidades = await _context.Especialidades
                 .FirstOrDefaultAsync(m => m.CodEspecialidade == id);
+                
             if (especialidades == null)
             {
                 return NotFound();
@@ -47,7 +49,7 @@ namespace Projetos.Controllers
         }
 
         [HttpGet("Medicos/{id}")]
-        public async Task<IActionResult> Especialidade(string id)
+        public async Task<IActionResult> Medicos(string id)
         {
             if (id == null)
             {
@@ -57,15 +59,19 @@ namespace Projetos.Controllers
             var especialidade = await _context.Especialidades
                 .FirstOrDefaultAsync(e => e.Nome == id);
 
-            var medicos = await _context.Medicos
-                .FirstOrDefaultAsync(m => m.CodEspecialidade == especialidade.CodEspecialidade); 
+            // var medicos = await _context.Medicos
+            //     .FirstOrDefaultAsync(m => m.CodEspecialidade == especialidade.CodEspecialidade); 
+
+            var medicos = from m in _context.Medicos
+                          where m.CodEspecialidade == especialidade.CodEspecialidade
+                          select m;
 
             if (medicos == null)
             {
-                return NotFound();
+                return NotFound(await medicos.ToListAsync());
             }
 
-            return View(medicos);
+            return View();
         }
         
         // GET: Especialidades/Create
